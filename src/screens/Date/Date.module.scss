@@ -1,0 +1,44 @@
+.element{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.container_tables,.container_boards {
+    display: flex;
+    flex-direction:row;
+    width: 600px;
+}
+.first_container ,
+.tercer_contenedor ,
+.second_container {
+    padding: 10px;
+    border:1px solid #eaeaea;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.export_buttons {
+    display: flex;
+    flex-direction: row;
+}
+.export_buttons > div > button {
+    height: 30px;
+    width: 100px;
+}
+.export_buttons > div {
+    
+    margin-left: 10px;
+    flex: 1;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.caption {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
